@@ -1,0 +1,302 @@
+.todolist{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100px;
+    position: fixed;
+    top: 0px;
+   
+   
+}
+.todolis{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.mtodolis{
+    width:90%;
+    height: 100%;
+    background-color: rgba(110, 19, 19, 0);
+   
+}
+.todolish{
+    width: 100%;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 38, 0);
+    background-color: rgb(255, 255, 255);
+ 
+}
+.emptyr{
+    width: 100%;
+    height: 105px;
+    display:flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    flex-direction: column;
+    background-color: rgb(255, 38, 0);
+   
+    align-items: center;
+}
+.inread{
+    width: 100%;
+    height: 25px;
+    display:flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(0, 255, 21, 0);
+}
+.inreadr{
+    width: 100%;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    background-color: rgba(0, 243, 20, 0);
+
+}
+.inreadd{
+    color: white;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    margin-left: 80%;
+    background-color: rgba(0, 215, 243, 0);
+
+}
+.sctn{
+    width: 25px;
+    height: 25px; 
+    margin-left: 4%;
+}
+
+.todolissh{
+    width: 100%;
+    height: 45px;
+    display:flex;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.1px solid rgb(114, 114, 114);
+    box-shadow: 2px 5px 15px 1px rgba(0, 0, .1);
+    background-color: rgb(255, 255, 255);
+ 
+}
+.todolisb{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 8%;border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.1px solid rgb(114, 114, 114);
+    box-shadow: 2px 5px 15px 1px rgba(0, 0, .1);
+    background-color: rgb(255, 255, 255);
+ 
+}
+.blist{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    flex-direction: column;
+    background-color: rgba(71, 203, 255, 0);
+}
+
+.blisth{
+    width: 100%;
+    height: 45px;
+    display: flex;
+  
+    background-color: rgb(255, 0, 0);
+
+}
+.blisth:hover .dvac{
+    width: 30%;
+    height: 100%;
+    border-top-left-radius: 8px;
+}
+
+
+.dvac{
+    width: 0%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    transition: 700ms;
+    background-color: rgb(255, 0, 0);
+
+}
+.dvac img{
+    margin: 10px;
+}
+.noteimg{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.dvnote{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+   
+    flex-direction: row;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+.tagnote{
+    margin-left: 5%;
+    width: 50%;
+    background-color: rgba(255, 0, 0, 0);
+
+}
+.tagtime{
+    margin-left: 30%;
+    color: rgb(155, 0, 0);
+}
+.empty{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 100%;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+color: rgb(94, 94, 94);
+font-weight: bold;
+align-items: center;
+    height: 150px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+.noimg{
+    width: 130px;
+    height: 70px;
+}
+.bav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    color: rgb(65, 65, 65);
+    border: 0.1px solid rgb(114, 114, 114);
+    background-color: rgba(214, 210, 5, 0);
+}
+.bav:active{
+    background-color: rgb(180, 180, 180);
+
+}
+.bav1{
+    width: 40%;
+    height: 5px;
+    display: flex;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 251, 0, 0);
+
+}
+.bav2{
+    width: 40%;
+    height: 5px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgb(255, 0, 0);
+}
+
+.addfid{
+    width: 70%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 7%;
+    border: unset;
+    outline: unset;
+    background-color: rgba(255, 0, 0, 0);
+ 
+}
+.add{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    background-color: rgba(0, 255, 13, 0);
+ 
+}
+.sct{
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.todolisad{
+    width: 40px;
+    height: 40px;
+    transition: 800ms;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -10%;
+    position: relative;
+    margin-left: 90%;
+    background-color: rgb(247, 0, 0);
+}
+.todolisad:active{
+transform: rotate(250deg);
+}
+.backl{
+    z-index: 100px;
+    position: fixed;
+    top: 14px;
+    right: 18px;
+    border-radius: 50%;
+width: 50px;
+height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+border: 3px solid #fff;
+background-color: rgb(255, 0, 0);
+}
+.bckimg{
+    width: 30px;
+    height: 30px;
+  }

@@ -1,0 +1,511 @@
+.safe{
+    top:0px;
+    height:100%;
+    width:100%;
+    z-index: 300px;
+    position:fixed;
+    background-color: rgba(224, 16, 16, 0)
+}
+
+.horizo1{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(61, 16, 224, 0)
+
+}
+.horizo2{
+    display: flex;
+    width: 100%;
+    height: 495px;
+}
+.horizo3{
+    width: 100%;
+    height: 100%;
+}
+.inhz2-1{
+   
+    background-color: rgba(16, 224, 44, 0);
+    height: 100%;
+}
+.inhz2-2{
+    width: 24%;
+    height: 100%;
+    background-color: rgba(224, 16, 207, 0)
+
+}
+.inhz2-3{
+    width: 37%;
+    height: 100%;
+}
+
+
+.form{
+    margin-left: 5%;
+    height:490px;
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.774);
+    box-shadow:0px 0px 0px 3px rgba(161, 161, 161, 0.945),
+    0px 0px 30px 12px rgba(0, 0, 0, 0.767);
+    border-radius: 4px;
+   
+                  
+}
+
+
+.form2{
+    margin-left: 5%;
+    height:490px;
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.774);
+    box-shadow:0px 0px 0px 3px rgb(255, 0, 0),
+    0px 0px 30px 12px rgba(0, 0, 0, 0.767);
+    border-radius: 4px;
+   
+                
+}
+
+
+.form3{
+    margin-left: 5%;
+    height:490px;
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.774);
+    box-shadow:0px 0px 0px 3px rgb(0, 255, 21),
+    0px 0px 30px 12px rgba(0, 0, 0, 0.767) ;
+    border-radius: 4px;
+                
+}
+.inx{
+    width:100%;
+    height:25px;
+    background-color: rgba(139, 0, 139, 0);
+    display: flex;
+    justify-content: flex-end;
+}
+.creat{
+    display: flex;
+    justify-content:space-around;
+  width:100%;
+  height:25px; 
+  background-color: rgba(247, 198, 2, 0);
+}
+.x{
+    margin-right:2%;
+    margin-top:2%;
+    height:70%;
+    width:6.4%;
+
+}
+.create{ 
+  font-size:20px;
+  color: rgb(255, 255, 255);
+}
+.images{
+    width:100%;
+    height:60px;
+    background-color: rgba(235, 13, 13, 0.959);
+    display: flex;
+    justify-content: space-around;
+}
+.google{
+    margin-top:2%;
+    height:54%;
+    width:10%;
+  
+
+
+}
+.userv{
+    border-radius: 20px;
+    border: 2px solid #ffff;
+   
+}
+.googler{
+    border-radius: 20px;
+    margin-top:-2%;
+    height:40px;
+    width:40px;
+ 
+}
+.mltn{
+    opacity: 0;
+    margin-top: 0.5%;
+    height:45px;
+    width:45px;
+    position: absolute;
+    margin-left: 0%;
+}
+
+.firsName{
+  display: flex; 
+  flex-direction: column;
+  height: 70px;
+  background-color: rgba(217, 255, 0, 0); 
+}
+
+
+
+.lab1{
+    top:22px;
+    position: relative;
+    font-size:12px;
+    margin-left: 5%;
+    transition: 1s;
+    color: rgb(168, 168, 168);
+    width:20%;
+
+}
+.labe1{
+    top:4px;
+    position: relative;
+    font-size:12px;
+    margin-left: 5%;
+    color:  rgb(255, 255, 255);
+    animation: first 1s ease-in-out;
+    width:20%;
+
+}
+
+@keyframes first {
+from{
+    top:22px;
+    font-size:11px;
+    margin-left: 5%;
+    color: rgb(168, 168, 168);
+    opacity: 1;transform: translateY(4px);
+}
+to{ 
+    top:4px;
+    font-size:13px;
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    opacity: 1;transform: translateY(4);
+    }
+
+}
+.error{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    outline: none;
+    color: white;
+    border-top: unset;
+    border-left:unset;
+    border-right: unset;
+    border-color: rgb(160, 160, 160);
+    background-color: unset;
+}
+
+.error2{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    outline: none;
+    color: white;
+    border-top: unset;
+    border-left:unset;
+    border-right: unset;
+    border-color: rgb(0, 255, 64);
+    background-color: unset;
+}
+
+.error3{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    border-top: unset;
+    border-left:unset;
+    color: white;
+    outline: none;
+    border-right: unset;
+    border-color: rgb(255, 0, 0);
+    background-color: unset;
+}
+
+
+.lab2{
+    top:22px;
+    position: relative;
+    width:20%;
+    font-size:12px;
+    transition: 1s;
+    margin-left: 5%;
+    color: rgb(168, 168, 168);
+}
+.labe2{
+    top:4px;
+    position: relative;
+    font-size:12px;
+    margin-left: 5%;
+    color:  rgb(255, 255, 255);
+    animation : first  1s ease-in-out;
+    width:20%;
+
+}
+
+@keyframes first {
+from{
+    top:22px;
+    font-size:11px;
+    margin-left: 5%;
+    color: rgb(168, 168, 168);
+    opacity: 1;transform: translateY(4px);
+}
+to{ 
+    top:4px;
+    font-size:13px;
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    opacity: 1;transform: translateY(4);
+    }
+
+}
+.lasterror{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    border-top: unset;
+    border-left:unset;
+    color: white;
+    outline: none;
+    border-right: unset;
+    border-color: rgb(160, 160, 160);
+    background-color: unset;
+}
+
+.lasterror2{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    outline: none;
+    border-top: unset;
+    color: white;
+    border-left:unset;
+    border-right: unset;
+    border-color:rgb(0, 255, 64);
+    background-color: unset;
+}
+
+.lasterror3{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    border-top: unset;
+    outline: none;
+    color: white;
+    border-left:unset;
+    border-right: unset;
+    border-color: rgb(255, 0, 0);
+    background-color: unset;
+}
+
+
+.lab3{
+    top:22px;
+    position: relative;
+    width:20%;
+    font-size:12px;
+    transition: 1s;
+    margin-left: 5%;
+    color: rgb(168, 168, 168);
+}
+.labe3{
+    top:4px;
+    position: relative;
+    font-size:12px;
+    margin-left: 5%;
+    color:  rgb(255, 255, 255);
+    animation: first 1s ease-in-out;
+    width:20%;
+
+}
+
+@keyframes first {
+from{
+    top:22px;
+    font-size:11px;
+    margin-left: 5%;
+    color: rgb(168, 168, 168);
+    opacity: 1;transform: translateY(4px);
+}
+to{ 
+    top:4px;
+    font-size:13px;
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    opacity: 1;transform: translateY(4);
+    }
+
+}
+.emailerror{
+    margin-left: 5%;
+    height:25px;
+    color: white;
+    width:88%;
+    border-top: unset;
+    outline: none;
+    border-left:unset;
+    border-right: unset;
+    border-color: rgb(160, 160, 160);
+    background-color: unset;
+}
+
+.emailerror2{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    border-top: unset;
+    color: white;
+    outline: none;
+    border-left:unset;
+    border-right: unset;
+    border-color:rgb(0, 255, 64);
+    background-color: unset;
+}
+
+.emailerror3{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    border-top: unset;
+    outline: none;
+    color: white;
+    border-left:unset;
+    border-right: unset;
+    border-color: rgb(255, 0, 0);
+    background-color: unset;
+}
+
+
+.lab4{
+    top:22px;
+    position: relative;
+    width:20%;
+    font-size:12px;
+    transition: 1s;
+    margin-left: 5%;
+    color: rgb(168, 168, 168);
+}
+.labe4{
+    top:4px;
+    position: relative;
+    font-size:12px;
+    margin-left: 5%;
+    color:  rgb(255, 255, 255);
+    animation: first 1s ease-in-out;
+    width:20%;
+
+}
+
+@keyframes first {
+from{
+    top:22px;
+    font-size:11px;
+    margin-left: 5%;
+    color: rgb(168, 168, 168);
+    opacity: 1;transform: translateY(4px);
+}
+to{ 
+    top:4px;
+    font-size:13px;
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    opacity: 1;transform: translateY(4);
+    }
+
+}
+.passwordlerror{
+    margin-left: 5%;
+    color: white;
+    height:25px;
+    width:88%;
+    border-top: unset;
+    border-left:unset;
+    outline: none;
+    border-right: unset;
+    border-color: rgb(160, 160, 160);
+    background-color: unset;
+}
+
+.passwordlerror2{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    color: white;
+    border-top: unset;
+    outline: none;
+    border-left:unset;
+    border-right: unset;
+    border-color:rgb(0, 255, 64);
+    background-color: unset;
+}
+
+.passwordlerror3{
+    margin-left: 5%;
+    height:25px;
+    width:88%;
+    border-top: unset;
+    outline: none;
+    border-left:unset;
+    color: white;
+    border-right: unset;
+    border-color: rgb(255, 0, 0);
+    background-color: unset;
+}
+.ceateAccount{
+width: 100%;
+height:95px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.have{
+    margin-top:9%;
+    color: white;
+    font-size:12px;
+    cursor: pointer;
+
+}
+.have:hover{
+    color:rgb(255, 0, 149);
+}
+
+.btn{
+    width: 125px;
+    height: 28px;
+    border: unset;
+    outline: none;
+    border-radius: 20px;
+    background-color: unset;
+    cursor: pointer;
+    color: rgb(255, 0, 149);
+    box-shadow: 0px 0px 0px 2.2px rgb(255, 0, 149);
+}
+
+.btn:hover{
+    width: 125px;
+    height: 28px;
+    border: unset;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(255, 0, 149);
+}
+.spn{
+color: coral;
+width: 100%;
+}
+
+.cool{
+    margin-left:5%;
+    color: rgb(235, 0, 0);
+    font-size: 13px;
+
+}
+.cool2{
+    margin-left:5%;
+    color: chartreuse;
+    font-size: 13px;
+}
